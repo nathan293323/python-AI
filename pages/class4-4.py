@@ -18,6 +18,6 @@ for image_file in image_files:  # 顯示所有圖片
     )
     # 顯示圖片, 根據使用者輸入的大小調整寬度
 
-for image_file in image_files:  # 顯示所有圖片
+for image_file in image_files:  #  顯示所有圖片
     st.image(f"{image_folder}/{image_file}", use_column_width=True)
     # 顯示圖片, 使用欄寬度
